@@ -1,0 +1,9 @@
+# configuring port number on which application should run
+#server.port=8081
+spring:
+    application:
+        name: veeva-migration-center
+    data:
+        mongodb:
+            database: veeva-migration-center
+            uri: mongodb://localhost:27017/profiles?retryWrites=true

@@ -1,0 +1,12 @@
+com\migrationcenter\tool\controller\ExtractionController.class
+com\migrationcenter\tool\controller\ProfileJobController.class
+com\migrationcenter\tool\service\ExtractionService.class
+com\migrationcenter\tool\controller\InjectionController.class
+com\migrationcenter\tool\service\InjectionService.class
+com\migrationcenter\tool\MigrationToolApplication.class
+com\migrationcenter\tool\service\TransformService.class
+com\migrationcenter\tool\serviceimpl\HelloWorldController.class
+com\migrationcenter\tool\controller\TransformationController.class
+com\migrationcenter\tool\controller\ReportsController.class
+com\migrationcenter\tool\entity\Extraction.class
+com\migrationcenter\tool\service\ProfileJobService.class

@@ -1,0 +1,229 @@
+2024-09-10 13:11:52,352 [main] WARN  veeva.ecm.vaultloadertool.parser.VDLParser - Exception occurred trying to parse options
+org.apache.commons.cli.UnrecognizedOptionException: Unrecognized option: -createdocument
+	at org.apache.commons.cli.DefaultParser.handleUnknownToken(DefaultParser.java:360) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at org.apache.commons.cli.DefaultParser.handleConcatenatedOptions(DefaultParser.java:702) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at org.apache.commons.cli.DefaultParser.handleShortAndLongOption(DefaultParser.java:533) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at org.apache.commons.cli.DefaultParser.handleToken(DefaultParser.java:243) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:120) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:76) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:60) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser$OptionsWrapper.parseOptions(VDLParser.java:85) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:215) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:11:52,356 [main] WARN  veeva.ecm.vaultloadertool.engine.OperationsController - Exception occurred during getVersion(), returning implementation version of the package of the class
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at veeva.ecm.vaultloadertool.engine.OperationsController.getVersion(OperationsController.java:76) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser$OptionsWrapper.printHelp(VDLParser.java:79) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:219) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:12:58,544 [main] WARN  veeva.ecm.vaultloadertool.parser.VDLParser - Username not provided.
+veeva.ecm.vaultloadertool.errors.VDLException: Username not provided.
+	at veeva.ecm.vaultloadertool.parser.VDLParser.getCommandLineCredentials(VDLParser.java:479) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:241) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:21:34,125 [main] WARN  veeva.ecm.vaultloadertool.parser.VDLParser - DNS not provided.
+veeva.ecm.vaultloadertool.errors.VDLException: DNS not provided.
+	at veeva.ecm.vaultloadertool.parser.VDLParser.getCommandLineCredentials(VDLParser.java:488) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:241) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:21:54,203 [main] WARN  veeva.ecm.vaultloadertool.parser.VDLParser - DNS not provided.
+veeva.ecm.vaultloadertool.errors.VDLException: DNS not provided.
+	at veeva.ecm.vaultloadertool.parser.VDLParser.getCommandLineCredentials(VDLParser.java:488) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:241) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:22:59,922 [main] WARN  veeva.ecm.vaultloadertool.parser.VDLParser - Username not provided.
+veeva.ecm.vaultloadertool.errors.VDLException: Username not provided.
+	at veeva.ecm.vaultloadertool.parser.VDLParser.getCommandLineCredentials(VDLParser.java:479) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:241) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:23:11,992 [main] WARN  veeva.ecm.vaultloadertool.parser.VDLParser - Username not provided.
+veeva.ecm.vaultloadertool.errors.VDLException: Username not provided.
+	at veeva.ecm.vaultloadertool.parser.VDLParser.getCommandLineCredentials(VDLParser.java:479) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:241) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:25:02,009 [main] WARN  veeva.ecm.vaultloadertool.parser.VDLParser - DNS not provided.
+veeva.ecm.vaultloadertool.errors.VDLException: DNS not provided.
+	at veeva.ecm.vaultloadertool.parser.VDLParser.getCommandLineCredentials(VDLParser.java:488) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:241) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:25:26,133 [main] WARN  veeva.ecm.vaultloadertool.parser.VDLParser - DNS not provided.
+veeva.ecm.vaultloadertool.errors.VDLException: DNS not provided.
+	at veeva.ecm.vaultloadertool.parser.VDLParser.getCommandLineCredentials(VDLParser.java:488) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:241) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:25:38,774 [main] WARN  veeva.ecm.vaultloadertool.parser.VDLParser - Exception occurred trying to parse options
+org.apache.commons.cli.UnrecognizedOptionException: Unrecognized option: --dns
+	at org.apache.commons.cli.DefaultParser.handleUnknownToken(DefaultParser.java:360) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at org.apache.commons.cli.DefaultParser.handleLongOptionWithoutEqual(DefaultParser.java:407) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at org.apache.commons.cli.DefaultParser.handleLongOption(DefaultParser.java:384) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at org.apache.commons.cli.DefaultParser.handleToken(DefaultParser.java:239) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:120) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:76) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:60) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser$OptionsWrapper.parseOptions(VDLParser.java:85) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:215) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:25:38,778 [main] WARN  veeva.ecm.vaultloadertool.engine.OperationsController - Exception occurred during getVersion(), returning implementation version of the package of the class
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at veeva.ecm.vaultloadertool.engine.OperationsController.getVersion(OperationsController.java:76) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser$OptionsWrapper.printHelp(VDLParser.java:79) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:219) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:25:57,090 [main] WARN  veeva.ecm.vaultloadertool.engine.OperationsController - Exception occurred during getVersion(), returning implementation version of the package of the class
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at veeva.ecm.vaultloadertool.engine.OperationsController.getVersion(OperationsController.java:76) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.client.VaultClient.getAPIVersion(VaultClient.java:524) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.client.VaultClient.<clinit>(VaultClient.java:37) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.connector.VaultApiConnection.open(VaultApiConnection.java:112) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:246) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:25:58,560 [main] WARN  veeva.ecm.vaultloadertool.util.Util - Failure occurred in Vault.
+2024-09-10 13:25:58,562 [main] WARN  veeva.ecm.vaultloadertool.engine.OperationsController - Failure: Invalid or expired session ID.
+veeva.ecm.vaultloadertool.errors.VDLException: Failure: Invalid or expired session ID.
+	at veeva.ecm.vaultloadertool.util.Util.checkForErrors(Util.java:370) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.uploadCSV(OperationsController.java:791) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.performDocumentOperation(OperationsController.java:413) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.performItemOperation(OperationsController.java:364) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.performOperation(OperationsController.java:161) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.handleCreateDocumentsOption(VDLParser.java:577) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:262) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:25:58,564 [main] WARN  veeva.ecm.vaultloadertool.parser.VDLParser - Failure: Invalid or expired session ID.
+veeva.ecm.vaultloadertool.errors.VDLException: Failure: Invalid or expired session ID.
+	at veeva.ecm.vaultloadertool.parser.VDLParser.handleOperationResult(VDLParser.java:915) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.handleCreateDocumentsOption(VDLParser.java:577) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:262) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:27:34,624 [main] WARN  veeva.ecm.vaultloadertool.engine.OperationsController - Exception occurred during getVersion(), returning implementation version of the package of the class
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at veeva.ecm.vaultloadertool.engine.OperationsController.getVersion(OperationsController.java:76) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.client.VaultClient.getAPIVersion(VaultClient.java:524) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.client.VaultClient.<clinit>(VaultClient.java:37) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.connector.VaultApiConnection.open(VaultApiConnection.java:112) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:246) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:27:36,199 [main] WARN  veeva.ecm.vaultloadertool.util.Util - Failure occurred in Vault.
+2024-09-10 13:27:36,200 [main] WARN  veeva.ecm.vaultloadertool.engine.OperationsController - Failure: Invalid or expired session ID.
+veeva.ecm.vaultloadertool.errors.VDLException: Failure: Invalid or expired session ID.
+	at veeva.ecm.vaultloadertool.util.Util.checkForErrors(Util.java:370) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.uploadCSV(OperationsController.java:791) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.performDocumentOperation(OperationsController.java:413) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.performItemOperation(OperationsController.java:364) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.performOperation(OperationsController.java:161) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.handleCreateDocumentsOption(VDLParser.java:577) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:262) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:27:36,201 [main] WARN  veeva.ecm.vaultloadertool.parser.VDLParser - Failure: Invalid or expired session ID.
+veeva.ecm.vaultloadertool.errors.VDLException: Failure: Invalid or expired session ID.
+	at veeva.ecm.vaultloadertool.parser.VDLParser.handleOperationResult(VDLParser.java:915) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.handleCreateDocumentsOption(VDLParser.java:577) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:262) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:31:10,051 [main] WARN  veeva.ecm.vaultloadertool.engine.OperationsController - Exception occurred during getVersion(), returning implementation version of the package of the class
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at veeva.ecm.vaultloadertool.engine.OperationsController.getVersion(OperationsController.java:76) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.client.VaultClient.getAPIVersion(VaultClient.java:524) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.client.VaultClient.<clinit>(VaultClient.java:37) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.connector.VaultApiConnection.open(VaultApiConnection.java:112) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:246) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:31:10,964 [main] WARN  veeva.ecm.vaultloadertool.engine.OperationsController - Exception occurred during getVersion(), returning implementation version of the package of the class
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at veeva.ecm.vaultloadertool.engine.OperationsController.getVersion(OperationsController.java:76) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser$OptionsWrapper.printHelp(VDLParser.java:79) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:461) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:31:25,354 [main] WARN  veeva.ecm.vaultloadertool.engine.OperationsController - Exception occurred during getVersion(), returning implementation version of the package of the class
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at veeva.ecm.vaultloadertool.engine.OperationsController.getVersion(OperationsController.java:76) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.client.VaultClient.getAPIVersion(VaultClient.java:524) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.client.VaultClient.<clinit>(VaultClient.java:37) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.connector.VaultApiConnection.open(VaultApiConnection.java:112) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:246) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:31:26,716 [main] WARN  veeva.ecm.vaultloadertool.util.Util - Failure occurred in Vault.
+2024-09-10 13:31:26,718 [main] WARN  veeva.ecm.vaultloadertool.engine.OperationsController - Failure: Invalid or expired session ID.
+veeva.ecm.vaultloadertool.errors.VDLException: Failure: Invalid or expired session ID.
+	at veeva.ecm.vaultloadertool.util.Util.checkForErrors(Util.java:370) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.uploadCSV(OperationsController.java:791) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.performDocumentOperation(OperationsController.java:413) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.performItemOperation(OperationsController.java:364) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.performOperation(OperationsController.java:161) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.handleCreateDocumentsOption(VDLParser.java:577) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:262) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:31:26,719 [main] WARN  veeva.ecm.vaultloadertool.parser.VDLParser - Failure: Invalid or expired session ID.
+veeva.ecm.vaultloadertool.errors.VDLException: Failure: Invalid or expired session ID.
+	at veeva.ecm.vaultloadertool.parser.VDLParser.handleOperationResult(VDLParser.java:915) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.handleCreateDocumentsOption(VDLParser.java:577) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:262) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:37:52,417 [main] WARN  veeva.ecm.vaultloadertool.engine.OperationsController - Exception occurred during getVersion(), returning implementation version of the package of the class
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at veeva.ecm.vaultloadertool.engine.OperationsController.getVersion(OperationsController.java:76) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.client.VaultClient.getAPIVersion(VaultClient.java:524) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.client.VaultClient.<clinit>(VaultClient.java:37) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.connector.VaultApiConnection.open(VaultApiConnection.java:112) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:246) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:37:53,220 [main] WARN  veeva.ecm.vaultloadertool.engine.OperationsController - Exception occurred during getVersion(), returning implementation version of the package of the class
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at veeva.ecm.vaultloadertool.engine.OperationsController.getVersion(OperationsController.java:76) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser$OptionsWrapper.printHelp(VDLParser.java:79) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:461) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:38:29,415 [main] WARN  veeva.ecm.vaultloadertool.engine.OperationsController - Exception occurred during getVersion(), returning implementation version of the package of the class
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at veeva.ecm.vaultloadertool.engine.OperationsController.getVersion(OperationsController.java:76) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.client.VaultClient.getAPIVersion(VaultClient.java:524) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.client.VaultClient.<clinit>(VaultClient.java:37) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.connector.VaultApiConnection.open(VaultApiConnection.java:112) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:246) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:38:31,244 [main] WARN  veeva.ecm.vaultloadertool.util.Util - Failure occurred in Vault.
+2024-09-10 13:38:31,246 [main] WARN  veeva.ecm.vaultloadertool.engine.OperationsController - Failure: Invalid or expired session ID.
+veeva.ecm.vaultloadertool.errors.VDLException: Failure: Invalid or expired session ID.
+	at veeva.ecm.vaultloadertool.util.Util.checkForErrors(Util.java:370) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.uploadCSV(OperationsController.java:791) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.performDocumentOperation(OperationsController.java:413) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.performItemOperation(OperationsController.java:364) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.performOperation(OperationsController.java:161) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.handleCreateDocumentsOption(VDLParser.java:577) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:262) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:38:31,248 [main] WARN  veeva.ecm.vaultloadertool.parser.VDLParser - Failure: Invalid or expired session ID.
+veeva.ecm.vaultloadertool.errors.VDLException: Failure: Invalid or expired session ID.
+	at veeva.ecm.vaultloadertool.parser.VDLParser.handleOperationResult(VDLParser.java:915) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.handleCreateDocumentsOption(VDLParser.java:577) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:262) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:42:11,050 [main] WARN  veeva.ecm.vaultloadertool.config.Configuration - Error parsing configuration file.
+org.jdom2.input.JDOMParseException: Error on line 1: Content is not allowed in trailing section.
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:234) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:303) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1184) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.util.Util.getXmlFromString(Util.java:143) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.config.Configuration.setupConfig(Configuration.java:78) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.config.Configuration.<init>(Configuration.java:32) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.config.Configuration$ConfigurationHolder.<clinit>(Configuration.java:58) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.config.Configuration.getInstance(Configuration.java:66) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.<clinit>(VDLParser.java:59) [VaultDataLoader.jar:24.2.0-release10515]
+Caused by: org.xml.sax.SAXParseException: Content is not allowed in trailing section.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204) ~[?:?]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1463) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:635) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:113) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:551) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:890) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:826) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:134) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1225) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643) ~[?:?]
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217) ~[VaultDataLoader.jar:24.2.0-release10515]
+	... 8 more
+2024-09-10 13:42:11,054 [main] WARN  veeva.ecm.vaultloadertool.config.Configuration - Error parsing configuration file.
+veeva.ecm.vaultloadertool.errors.VDLException: Error parsing configuration file.
+	at veeva.ecm.vaultloadertool.config.Configuration.setupConfig(Configuration.java:81) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.config.Configuration.<init>(Configuration.java:32) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.config.Configuration$ConfigurationHolder.<clinit>(Configuration.java:58) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.config.Configuration.getInstance(Configuration.java:66) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.<clinit>(VDLParser.java:59) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:44:15,082 [main] WARN  veeva.ecm.vaultloadertool.engine.OperationsController - Exception occurred during getVersion(), returning implementation version of the package of the class
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at veeva.ecm.vaultloadertool.engine.OperationsController.getVersion(OperationsController.java:76) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.client.VaultClient.getAPIVersion(VaultClient.java:524) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.client.VaultClient.<clinit>(VaultClient.java:37) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.connector.VaultApiConnection.open(VaultApiConnection.java:112) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:246) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:44:16,705 [main] WARN  veeva.ecm.vaultloadertool.util.Util - Failure occurred in Vault.
+2024-09-10 13:44:16,708 [main] WARN  veeva.ecm.vaultloadertool.engine.OperationsController - Failure: Invalid or expired session ID.
+veeva.ecm.vaultloadertool.errors.VDLException: Failure: Invalid or expired session ID.
+	at veeva.ecm.vaultloadertool.util.Util.checkForErrors(Util.java:370) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.uploadCSV(OperationsController.java:791) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.performDocumentOperation(OperationsController.java:413) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.performItemOperation(OperationsController.java:364) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.engine.OperationsController.performOperation(OperationsController.java:161) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.handleCreateDocumentsOption(VDLParser.java:577) [VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:262) [VaultDataLoader.jar:24.2.0-release10515]
+2024-09-10 13:44:16,709 [main] WARN  veeva.ecm.vaultloadertool.parser.VDLParser - Failure: Invalid or expired session ID.
+veeva.ecm.vaultloadertool.errors.VDLException: Failure: Invalid or expired session ID.
+	at veeva.ecm.vaultloadertool.parser.VDLParser.handleOperationResult(VDLParser.java:915) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.handleCreateDocumentsOption(VDLParser.java:577) ~[VaultDataLoader.jar:24.2.0-release10515]
+	at veeva.ecm.vaultloadertool.parser.VDLParser.main(VDLParser.java:262) [VaultDataLoader.jar:24.2.0-release10515]

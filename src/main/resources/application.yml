@@ -1,0 +1,27 @@
+# configuring port number on which application should run
+#server.port=8081 
+# uri: mongodb+srv://demo:demo@cluster0.mh8xgxx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+# texium cluster password - dbUserPassword username - dbUser
+# texium mongo driver uri - mongodb+srv://dbUser:<db_password>@cluster0.zlnyvzx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+# kalyani mongo uri - mongodb+srv://kalyanipatra2003:vjsnCibSHHWOspZY@cluster0.lonmke0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+spring.servlet.multipart.enabled: true
+spring.servlet.multipart.max-file-size: 200MB
+spring.servlet.multipart.max-request-size: 200MB
+
+spring:
+  application:
+    name: veeva-migration-center
+  data:
+    mongodb:
+      database: profile
+      uri: mongodb+srv://dbUser:dbUserPassword@cluster0.zlnyvzx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    tagsSorter: alpha
+    operationsSorter: method
+    display-request-duration: true

@@ -3,7 +3,7 @@
 # uri: mongodb+srv://demo:demo@cluster0.mh8xgxx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 # texium cluster password - dbUserPassword username - dbUser
 # texium mongo driver uri - mongodb+srv://dbUser:<db_password>@cluster0.zlnyvzx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-# kalyani mongo uri - mongodb+srv://kalyanipatra2003:vjsnCibSHHWOspZY@cluster0.lonmke0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
 spring.servlet.multipart.enabled: true
 spring.servlet.multipart.max-file-size: 200MB
 spring.servlet.multipart.max-request-size: 200MB
